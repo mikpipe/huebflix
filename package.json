@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "prod": "cd huebflix && ng build --prod && cd ../ && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
