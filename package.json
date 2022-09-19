@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "dev": "cd huebflix && ng serve",
     "prod": "cd huebflix && ng build --prod && cd ../ && node server.js"
   },
   "dependencies": {
