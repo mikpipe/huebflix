@@ -8,6 +8,8 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
+import { SearchPageComponent } from './search/search-page/search-page.component';
+import { SearchResultsComponent } from './search/search-results/search-results.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { AboutComponent } from './about/about.component';
     HeaderComponent,
     LandingpageComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    SearchPageComponent,
+    SearchResultsComponent
   ],
   imports: [
     BrowserModule,
