@@ -1,0 +1,22 @@
+div{
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+li {
+    display: inline;
+    margin: auto;
+}
